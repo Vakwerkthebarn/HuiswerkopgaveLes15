@@ -1,0 +1,63 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: auto;
+    background-color: #e5eedf;
+    height: 100%;
+}
+.content{
+    background-color: whitesmoke;
+    padding:10px 40px;
+    margin: 20px 100px;
+    place-content: center;
+    width: auto;
+    height: auto;
+    border-radius: 18px;
+    text-size-adjust: auto;
+}
+#pasfoto{
+    vertical-align: middle;
+}
+.titel-blok{
+    background-color: rgb(6, 33, 6);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    opacity: 0.8;
+}
+.navigatie{
+    background-color: #262626;
+    opacity: 0.9;
+}
+.navigatie ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.navigatie li{
+    float: left;
+}
+.navigatie a{
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.navigatie a:hover{
+    background-color: #ddd;
+    color: black;
+}
+footer{
+    height: auto;
+    width: 100%;
+    display: grid;
+    position: fixed;
+    place-content: center;
+    background-color: rgb(6, 33, 6);
+    color: antiquewhite;
+    font-size: small;
+    opacity: 0.8;
+    bottom: 0px;
+    padding: 5px;
+}
